@@ -3,3 +3,5 @@
   plan: free
   buildCommand: npm install
   startCommand: npm start
+  env: 
+    nodeVersion: 14.20.1
