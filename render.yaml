@@ -1,5 +1,5 @@
 - name: business-boost2
   type: service
-  plan: starter
+  plan: free
   buildCommand: npm install
   startCommand: npm start
