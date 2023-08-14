@@ -1,0 +1,42 @@
+{
+  "name": "business_boost",
+  "version": "1.0.0",
+  "description": "The backend for my design project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": ""
+  },
+  "author": "Fri Sharon",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1435.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.9.0",
+    "helmet": "^6.1.5",
+    "http": "^0.0.1-security",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "mock-aws-s3": "^4.0.2",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "netlify-cli": "^16.0.2",
+    "netlify-lambda": "^2.0.16",
+    "nock": "^13.3.2",
+    "nodemailer": "^6.9.1",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.7.1",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
